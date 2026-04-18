@@ -235,7 +235,9 @@ def process_scan(scan_path, blank_orig, verbose=True):
     for i, (x1, y1, x2, y2) in enumerate(merged_boxes):
         cv2.rectangle(ann, (x1, y1), (x2, y2), (0, 255, 0), 25)
         cv2.putText(ann, str(i+1), (x1+150, y1+400),
-                    cv2.FONT_HERSHEY_SIMPLEX, 16, (50,50,10), 40)
+                    cv2.FONT_HERSHEY_SIMPLEX, 16, (0, 0, 0), 60)
+        cv2.putText(ann, str(i+1), (x1+150, y1+400),
+                    cv2.FONT_HERSHEY_SIMPLEX, 16, (255, 255, 255), 40)
 
     return ann, crops, merged_boxes
 
