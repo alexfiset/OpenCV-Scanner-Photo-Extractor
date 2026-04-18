@@ -11,7 +11,7 @@ Created with the use of Claude Code.
 
 The annotated scan shows each detected photo labeled and bounded. Individual crops are saved as separate JPEGs.
 
-![Annotated scan output](output_photos/IMG_01/annotated.jpg)
+![Annotated scan output](docs/sample_output.jpg)
 
 ---
 
