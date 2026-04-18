@@ -88,7 +88,7 @@ def save_scan_results(scan_path, scan, annotated, merged, crops):
         path = os.path.join(out_dir, f"photo_{i+1}.jpg")
         cv2.imwrite(path, crop, [cv2.IMWRITE_JPEG_QUALITY, JPEG_QUALITY])
 
-    cv2.imwrite(os.path.join(out_dir, "_annotated.jpg"), annotated,
+    cv2.imwrite(os.path.join(out_dir, "annotated.jpg"), annotated,
                 [cv2.IMWRITE_JPEG_QUALITY, JPEG_QUALITY])
 
     print(f"Saved {len(crops)} photos + annotated scan → {out_dir}")

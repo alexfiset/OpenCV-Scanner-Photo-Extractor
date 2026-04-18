@@ -88,5 +88,5 @@ output_photos/
     ├── photo_1.jpg
     ├── photo_2.jpg
     ├── photo_3.jpg
-    └── _annotated.jpg   ← original scan with detection boxes
+    └── annotated.jpg   ← original scan with detection boxes
 ```
