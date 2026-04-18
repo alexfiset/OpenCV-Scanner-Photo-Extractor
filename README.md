@@ -5,6 +5,7 @@ A Python tool that automatically extracts individual photos from flatbed scanner
 **Primary use case:** Digitize a batch of old prints by placing multiple photos on a flatbed scanner at once, then let this tool split them into separate, deskewed image files.
 
 Created with the use of Claude Code.
+
 ---
 
 ## Sample Output
