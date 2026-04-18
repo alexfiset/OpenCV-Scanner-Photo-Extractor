@@ -10,7 +10,7 @@ Created with the use of Claude Code.
 
 ## Sample Output
 
-The annotated scan shows each detected photo labeled and bounded. Individual crops are saved as separate JPEGs.
+The annotated scan shows each detected photo labeled in white and bounded by a green box. Individual crops are saved as separate JPEGs without the labels and bounding boxes.
 
 ![Annotated scan output](docs/sample_output.jpg)
 
